@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import cartIcon from "../../assets/icons8-cart-50.png"
 import Logo from "./Logo";
 import styles from "./Header.module.css";
 import PropTypes from "prop-types";
@@ -26,7 +26,7 @@ const Header = ({ sumItems, setShowCart, showCart }) => {
           <div className={styles.cartIconContainer}>
             <img
               onClick={toggleCart}
-              src="./src/assets/icons8-cart-50.png"
+              src={cartIcon}
               alt=""
             />
           </div>
