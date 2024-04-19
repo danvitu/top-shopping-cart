@@ -8,7 +8,7 @@ const MainContent = () => {
       <p>(If you have enough money)</p>
       <img
         className="storeImg"
-        src="src/assets/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg"
+        src="./src/assets/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg"
         alt="store"
       />
     </div>

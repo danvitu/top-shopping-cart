@@ -26,7 +26,7 @@ const Header = ({ sumItems, setShowCart, showCart }) => {
           <div className={styles.cartIconContainer}>
             <img
               onClick={toggleCart}
-              src="src/assets/icons8-cart-50.png"
+              src="./src/assets/icons8-cart-50.png"
               alt=""
             />
           </div>
